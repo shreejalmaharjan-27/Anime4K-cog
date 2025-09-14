@@ -1,0 +1,1 @@
+docker run --gpus all -it -v $(pwd):/src anime4k-cog:latest bash

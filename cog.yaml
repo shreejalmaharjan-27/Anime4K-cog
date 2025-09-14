@@ -1,0 +1,13 @@
+# Configuration for Cog ⚙️
+# Reference: https://cog.run/yaml
+image: "anime4k-cog"
+build:
+  # set to true if your model requires a GPU
+  gpu: true
+  cuda: "12.1"
+
+  python_version: "3.10"
+
+  python_requirements: "requirements.txt"
+
+predict: "predict.py:Predictor"
