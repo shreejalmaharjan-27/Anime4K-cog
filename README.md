@@ -5,6 +5,16 @@ The code for this repository was used from the [Anime4K PyTorch implementation](
 
 You can view the main Anime4K repository [here](https://github.com/bloc97/Anime4K).
 
+
+## Requirements
+- Python 3.10+
+- [Cog](https://cog.run/getting-started)
+- A GPU for best performance (NVIDIA recommended)
+
+## Replicate 
+This model is available to run instantly on [Replicate](https://replicate.com/shreejalmaharjan-27/anime4k).
+
+
 ## Usage
 To use this Cog, you can run the following command:
 
@@ -49,9 +59,9 @@ bash debug-run.sh
 
 ### Browser Intellisense
 
-`conda create -n anime4k python=3.10`
-`conda activate anime4k`
-`pip install -r requirements.txt`
+- `conda create -n anime4k python=3.10`
+- `conda activate anime4k`
+- `pip install -r requirements.txt`
 
 Then select the `anime4k` interpreter in VSCode.
 

@@ -6,18 +6,11 @@ import torch
 import torch.nn as nn
 import torch.nn.functional as F
 import torchvision
-
-import re
-import math
 import os
-
-import nvidia.cublas.lib
-import nvidia.cudnn.lib
 
 from pipeline.Anime4kPipeline import Anime4KPipeline
 from utils.AutoDownscalePre import AutoDownscalePre
 from utils.ClampHighlight import ClampHighlight
-from utils.PresetCompiler import PresetCompiler
 from utils.anime4k import anime4k
 
 from einops import repeat
